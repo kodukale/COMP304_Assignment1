@@ -3,4 +3,6 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="topFragColor">#a7f2ad</color>
+    <color name="bottomFrgColor">#a0f2a6</color>
 </resources>
