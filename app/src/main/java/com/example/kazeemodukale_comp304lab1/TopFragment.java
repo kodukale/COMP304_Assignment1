@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.fragment.app.ListFragment;
 
@@ -33,6 +34,8 @@ public class TopFragment extends ListFragment {
                 android.R.layout.simple_list_item_1, activities);
         //bind the list view with array adapter
         setListAdapter(adapter);
+
+        Toast.makeText(getActivity(), "This is Top Fragment", Toast.LENGTH_SHORT).show();
 
         return view;
     }
